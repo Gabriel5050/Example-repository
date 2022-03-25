@@ -1,0 +1,102 @@
+ESCENCIAL. HTML NO ES PARA QUE QUEDE LINDO, ES PARA QUE QUEDE
+ESTRUCTURADO
+
+Etiquetas.
+Hay 2 tipos. Las que se cierran sola y las que no
+
+HTML 5
+<!DOCTYPE html>
+Se usa como shortcut en html5
+
+
+<html>
+	Aca va toda la pagina. Tanto lo que vemos como lo que no vemos
+</html>
+
+
+<body>
+	Todo lo que se puede ver en la pagina
+</body>
+
+
+<head>
+	Aca se encuentra todo lo que no se puede ver en la pagina. 
+	por ej, el titulo de la pestaña o el logo de la misma.
+	<link rel="icon" href="direccion.ico"> (ICONO)
+</head>
+
+<meta charset="utf-8"> (Va en head)
+Los Metadatos son elementos HTML que muestran 
+información sobre la propia página web que los contiene
+Estos elementos meta se encontrarán en el head del código
+
+Titulos
+<h1></h1> #Titulos principal
+<h2></h2> #titulo secundario 
+Va desde h1 a h6, siendo h1 el mas grande y h6 el mas chico
+
+<b>Texto ajustado</b>
+las etiquetas h completan la linea mientras que las etiquetas
+b se ajustan al texto
+
+<br> salto de linea (completa la linea basicamente. NO USAR)
+<hr> representa un cambio de tema entre párrafos, una regla horizontal(NO USAR)
+<pre> Los espacios dentro de este elemento también son mostrados como están escritos.</pre>(NO USAR)
+
+<a href="">Redireccion a otra ruta</a>
+href es un atributo. Indico a donde voy a redireccionar
+si se le agrega el target="_blank" redirecciona en otra pestaña
+con un #codigo podemos redireccionar a otro punto de la misma pagina, dandole id codigo
+
+<p>Se utiliza para escribir parrafos</p>
+<b>Textos en negrita</b>
+<i>Texto en italica</i>
+<strike>tachado</strike>
+<small>chiquito</small>
+
+Listas
+<ul>
+    <li>Lista con puntitos</li>
+    <li>lista con puntitos</li>
+</ul>
+
+<ol>
+    <li>Lista con numeros</li>
+    <li>lista con numeros</li>
+</ol>
+
+agrupar datos del mismo tipo por columna
+<table>
+    <tr>
+        <td> </td>
+    </tr>
+</table>
+
+<tr> es una fila
+<td> es cada dato de la fila
+
+centrar todo el contenido
+<center>
+    contenido centrado. Ya sea texto, tabla, imagen, etc.
+</center>
+
+imagenes, audio y video
+<img src = "img.jpg">
+src es para poner la ruta de la imagen
+la imagen se puede cambiar de tamaño con height o width
+alt es para darle una etiqueta a la imagen y en caso
+de que la img no se encuentre, le muestra esa etiqueta (VITAL, CLAVE, SIEMPRE ESTA)
+tittle es para darle un titulo a la imagen
+
+<form>
+    <input type="text">
+    <input type="password">
+    <input type="number">
+    <input type="email">
+</form>
+
+Boton
+<button>Google</button>
+
+Comentario
+<!--Este es un comentario para mi yo del futuro-->
